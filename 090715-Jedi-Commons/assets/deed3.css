@@ -1,0 +1,314 @@
+/* CC Deed CSS! */
+
+		body {
+			background-color: #2d2d2d;
+			font: 12px/16px arial, verdana, sans-serif;
+			text-align: center;
+			color: #ccc;
+		}
+		
+		h3 {
+			font-size: 1.45em;
+		}
+		
+		#cc-logo { display: none; }
+		
+		#deed-bg {
+
+		}
+		
+		#deed {
+			background: url("../assets/deed-bg-head.png") 0 0 no-repeat #424242;
+			width: 768px;
+			padding: 10px 0;
+			color: #333;
+			margin: 20px auto;
+			text-align: center;
+		}
+		
+		#deed-head {
+			width: 750px;
+			height: 134px;
+			margin: 0 auto;
+		}
+		
+		#deed-head h1 {
+			margin: 0;
+		}
+		
+		#deed-head span {
+			display: none;
+		}	
+		
+		.red #deed-head {
+			background: url("../assets/deed-head-red.png") 0 0 no-repeat;
+		}
+		
+		.yellow #deed-head {
+			background: url("../assets/deed-head-yellow.png") 0 0 no-repeat;
+		}
+		
+		.green #deed-head {
+			background: url("../assets/deed-head-green.png") 0 0 no-repeat;
+		}
+		
+		#deed-main {
+			background-color: #fff;
+			
+	/* "!important" box-model hack for IE */
+			width: 750px !important;
+	/*width: 780px;*/
+			
+			padding: 20px 0;
+			margin: 0 auto;
+			text-align: left;
+			
+			border-bottom: 1px solid #505050;
+		}
+		
+		#deed-main-content {
+			position: relative;
+			margin: 0 15px;
+		
+		}
+		
+		#deed-license {
+			text-align:center;
+			margin-top: 0px;
+			margin-bottom: 50px;
+			font-weight: bold;
+			color: #fff;
+		}
+		#deed-license h2 {
+			margin: 0;
+			font-size: 1.46em;
+			padding-top: 100px;
+		}
+		#deed-main img {
+			float: right;
+			border: 1px solid #888;
+			margin-bottom:  5px;
+		}
+		
+		#deed-rights {
+			background:  url("../assets/freedoms-header.png") 0 0 no-repeat;
+			padding: 0 10px;
+			margin-bottom: 20px;
+		}
+		
+		#deed-conditions {
+			background:  url("../assets/limitations-header.png") 0 0 no-repeat;
+			padding: 0 10px;
+			margin-bottom: 33px;
+		}
+
+		#deed-conditions ul {
+			margin-top: 22px;
+		}
+		
+		#deed-conditions div.fineprint {
+			padding: 15px;
+			border: 1px solid #ddd;
+			color: #111;
+			font-size: 0.92em;
+		}
+
+		#deed-newer {
+			border: 1px solid #e0adad;
+			background-color: #f0f0f0;
+			padding: 15px;
+			margin-top: 25px;
+		}
+		#deed-newer a, #deed-main a {
+			color: #111;
+ 			text-decoration:underline;
+			font-weight: bold;
+		}
+		
+		#deed-foot {
+			width: 750px;
+			padding: 10px 0;
+			padding-bottom: 20px;
+			margin: 0 auto;
+			color: #fff;
+			text-align: left;
+			border-top: 1px solid #555;
+		}
+		#deed-foot p {
+			margin: 0 20px;
+			padding: 0;
+		}
+		
+		a {
+			color: #fffc09;
+			text-decoration: none;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		.red #deed-foot {
+			background: url("../assets/deed-foot-red.png") 0 0;
+		}
+		
+		.yellow #deed-foot {
+			background: url("../assets/deed-foot-yellow.png") 0 0;
+		}
+		
+		.green #deed-foot {
+			background: url("../assets/deed-foot-green.png") 0 0;
+		}
+		
+		#disclaimer {
+			float: right;
+			padding-right: 15px;
+		}
+		li strong {
+			color: #222;
+		}
+		li {
+			margin-bottom: 8px;
+		}
+		li.license {
+			list-style: none;
+			padding-bottom: 25px;
+			padding-left: 70px;
+			padding-top: 10px;
+			width: 380px;
+		}
+		li.license p {
+			margin: 0;
+			padding: 0;
+		}
+		li.license-hidden {
+			list-style: none;
+		}
+	
+                li.free {
+                                        background: url("../assets/freedomdefined-50x50.png") 0 0 no-repeat;
+                }
+                li.share {
+                                        background: url("../assets/share.png") 0 0 no-repeat;
+                }
+	
+                li.remix {
+                                        background: url("../assets/remix.png") 0 0 no-repeat;
+                }
+
+		li.devnations {
+					background: url("../assets/devnations.png") 0 0 no-repeat;
+		}
+
+		li.no-endorse{
+					background: url("../assets/no-endorse.png") 0 0 no-repeat;
+		}
+		li.by {
+					background: url("../assets/by.png") 0 0 no-repeat;
+		}
+		li.jedi {
+					background: url("../jedi.gif") 0 0 no-repeat;
+		}
+		li.nc {
+					background: url("../assets/nc.png") 0 0 no-repeat;
+		}
+		li.nc-jp {
+					background: url("../assets/nc-jp.png") 0 0 no-repeat;
+		}
+		li.nc-eu {
+					background: url("../assets/nc-eu.png") 0 0 no-repeat;
+		}
+		li.sa {
+					background: url("../assets/sa.png") 0 0 no-repeat;
+		}
+		li.nd {
+					background: url("../assets/nd.png") 0 0 no-repeat;
+		}
+	        li.sampling, li.samplingplus{
+                                        background: url("../assets/sampling.png") 0 0 no-repeat;
+                }	
+		li.more {
+					background: url("../assets/more.png") 0 0 no-repeat;
+		}
+
+                li.notice {
+                                        background: url("../assets/notice.png") 0 0 no-repeat;
+                }
+                li.src {
+                                        background: url("../assets/src.png") 0 0 no-repeat;
+                }
+                li.nolaw {
+                                        background: url("../assets/nolaw.png") 0 0 no-repeat;
+                }
+                li.scnorms{
+                                        background: url("../assets/scnorms.png") 0 0 no-repeat;
+                }
+		
+		li a {
+			color: #0000ff;
+			text-decoration: none;
+		}
+                #referrer-metadata {
+                        padding: 20px;
+                        border-style: dotted;
+                }
+		#referrer-metadata a {
+			color: #0000FF;
+			text-decoration: none;
+		}
+
+
+		blockquote {
+			padding:  8px;
+			background-color:  #eee;
+			margin:  15px 0;
+			clear: both;
+		}
+
+		h3 {
+			padding-top: 10px;
+			margin-top:  1.75em;
+			margin-bottom:  0.7em;
+		}
+
+		#libre {
+			position: absolute;
+			right: 68px;
+			top: 30px;
+			width: 150px;
+			height: 250px;
+		}
+		#librepd {
+			width: 150px;
+			float: right;
+		}
+
+		#libre img, #libre a, #librepd img, #librepd a {
+			border: none !important;
+		}
+
+div.bd p {
+       color: #111;
+       font-size: 
+       line-height:140%;
+       padding-bottom:10px !important;
+       font-size: 0.92em;
+       margin: 0 !important;
+}
+
+#work-attribution-container {
+   border: 1px solid #D5D5D5;
+   margin-top: 10px;
+   padding: 7px;
+}
+
+#work-attribution-container input {
+   width: 93%;
+   border: 1px #888a85 solid;
+   height: 1.9em;
+}
+
+#attribution_help img {
+   border: 0;
+   margin: 0;
+   float: none;
+}
