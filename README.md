@@ -14,3 +14,4 @@
 
 ## mashups
 - `090715` [Jedi Commons](https://perguth.js.org/ideas/090715-Jedi-Commons/)
+- `180201` de: [💻-Cafe Noir · IT contextualisations for the rest of us.](https://medium.com/cafe-noir)
