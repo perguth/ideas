@@ -1,5 +1,5 @@
 # ideas
-🤔 • Political, sociological, philosophical ideas and mashups.
+> 🤔 • Political, sociological, philosophical ideas and mashups.
 
 ## politics
 - `130528` de: [Betterlifedeutschland](https://perguth.js.org/ideas/130528-Better-Life-Deutschland/)
