@@ -7,7 +7,7 @@
 - `010101` de: [d3v_system](https://perguth.js.org/ideas/010101-d3v_system/)
 
 ## economics
-- `070201` [Open Calculation and Open Assembly](https://perguth.js.org/ideas/070201-Open-Calculation-and-Open-Assembly/)
+- `070201` de: [Open Calculation and Open Assembly](https://perguth.js.org/ideas/070201-Open-Calculation-and-Open-Assembly/)
 
 ## philosophy
 - `120420` [What do you believe?](https://perguth.js.org/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html), de: [Woran glauben Sie denn?](https://perguth.js.org/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
