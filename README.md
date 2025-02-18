@@ -1,4 +1,4 @@
-# ideas
+# Ideas
 > 🤔 • Political, sociological, philosophical ideas and mashups.
 
 ## politics
