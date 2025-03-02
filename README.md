@@ -10,7 +10,7 @@
 - `070201` de: [Open Calculation and Open Assembly](https://perguth.de/ideas/070201-Open-Calculation-and-Open-Assembly/)
 
 ## philosophy
-- `120420` **[What do you believe?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html)**, de: [Woran glauben Sie denn?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
+- `120420` **[What do you believe?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html)**
 - `120420` de: [Woran glauben Sie denn?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
 
 ## mashups
