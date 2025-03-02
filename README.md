@@ -14,4 +14,5 @@
 - `120420` de: [Woran glauben Sie denn?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
 
 ## mashups
-- `090715` **[Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/en/)**, de: [Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/)
+- `090715` **[Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/en/)**
+- `090715` de: [Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/)
