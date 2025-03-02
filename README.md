@@ -11,6 +11,7 @@
 
 ## philosophy
 - `120420` **[What do you believe?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html)**, de: [Woran glauben Sie denn?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
+- `120420` de: [Woran glauben Sie denn?](https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/)
 
 ## mashups
 - `090715` **[Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/en/)**, de: [Jedi Commons](https://perguth.de/ideas/090715-Jedi-Commons/)
