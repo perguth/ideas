@@ -15,6 +15,7 @@
       --tag-bg: #e5e7eb;
       --footer-bg: #e2e8f0;
       --footer-text: #4b5563;
+      --note-bg: rgba(109, 40, 217, 0.1);
     }
 
     @media (prefers-color-scheme: dark) {
@@ -28,6 +29,7 @@
         --tag-bg: #374151;
         --footer-bg: #111827;
         --footer-text: #9ca3af;
+        --note-bg: rgba(139, 92, 246, 0.15);
       }
     }
 
@@ -39,9 +41,9 @@
       margin: 0 auto;
       padding: 2rem 1rem;
       background-color: var(--secondary-color);
-      min-height: 100vh;
       display: flex;
       flex-direction: column;
+      min-height: 100vh;
     }
 
     main {
@@ -74,10 +76,11 @@
     ul {
       list-style-type: none;
       padding-left: 0;
+      margin-bottom: 2rem;
     }
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       padding-left: 1.5rem;
       position: relative;
     }
@@ -100,15 +103,6 @@
       text-decoration: underline;
     }
 
-    .tag {
-      display: inline-block;
-      background-color: var(--tag-bg);
-      padding: 0.2rem 0.5rem;
-      border-radius: 4px;
-      font-size: 0.8rem;
-      margin-right: 0.5rem;
-    }
-
     .date-code {
       font-family: monospace;
       color: var(--accent-color);
@@ -129,9 +123,22 @@
       font-weight: bold;
     }
 
+    .note {
+      background-color: var(--note-bg);
+      border-radius: 6px;
+      padding: 0.75rem 1rem;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .note p {
+      margin: 0;
+    }
+
     footer {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
+      margin-top: 2rem;
+      padding-top: 1rem;
       border-top: 1px solid var(--accent-color);
       color: var(--footer-text);
       font-size: 0.9rem;
@@ -142,7 +149,7 @@
       display: flex;
       justify-content: center;
       gap: 1.5rem;
-      margin-bottom: 1rem;
+      margin: 0.5rem 0;
     }
 
     .footer-links a {
@@ -156,14 +163,22 @@
 
     .copyright {
       font-size: 0.8rem;
+      margin-top: 0.5rem;
+      opacity: 0.8;
     }
   </style>
+  
+  <script defer data-domain="ideas.perguth.de" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
   <main>
     <h1>Ideas</h1>
     
     <blockquote>🤔 • Political, sociological, philosophical ideas and mashups.</blockquote>
+
+    <div class="note">
+      <p>Note: The dates shown (e.g., `130528`) represent backup dates, not creation dates. These ideas were originally developed in my youth. All content remains under copyright protection.</p>
+    </div>
 
     <h2>Politics</h2>
     <ul>
@@ -231,7 +246,7 @@
       <a href="https://perguth.de/" target="_blank" rel="noopener noreferrer">Home</a>
     </div>
     <div class="copyright">
-      &copy; <script>document.write(new Date().getFullYear())</script> Per Guth
+      &copy; Per Guth. All rights reserved.
     </div>
   </footer>
 </body>
