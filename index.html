@@ -13,6 +13,8 @@
       --link-color: #4361ee;
       --link-hover-color: #3730a3;
       --tag-bg: #e5e7eb;
+      --footer-bg: #e2e8f0;
+      --footer-text: #4b5563;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -24,6 +26,8 @@
         --link-color: #60a5fa;
         --link-hover-color: #93c5fd;
         --tag-bg: #374151;
+        --footer-bg: #111827;
+        --footer-text: #9ca3af;
       }
     }
 
@@ -35,6 +39,13 @@
       margin: 0 auto;
       padding: 2rem 1rem;
       background-color: var(--secondary-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1;
     }
 
     h1 {
@@ -117,69 +128,111 @@
     .featured {
       font-weight: bold;
     }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--accent-color);
+      color: var(--footer-text);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links a {
+      color: var(--footer-text);
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--accent-color);
+    }
+
+    .copyright {
+      font-size: 0.8rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Ideas</h1>
-  
-  <blockquote>🤔 • Political, sociological, philosophical ideas and mashups.</blockquote>
+  <main>
+    <h1>Ideas</h1>
+    
+    <blockquote>🤔 • Political, sociological, philosophical ideas and mashups.</blockquote>
 
-  <h2>Politics</h2>
-  <ul>
-    <li>
-      <span class="date-code">`130528`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/130528-Better-Life-Deutschland/">Betterlifedeutschland</a>
-    </li>
-    <li>
-      <span class="date-code">`101004`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/101004-Buerger-Politik-Interface-Deutschland/">Buerger-Politik Interface Deutschland</a>
-    </li>
-    <li>
-      <span class="date-code">`010101`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/010101-d3v_system/">d3v_system</a>
-    </li>
-  </ul>
+    <h2>Politics</h2>
+    <ul>
+      <li>
+        <span class="date-code">`130528`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/130528-Better-Life-Deutschland/">Betterlifedeutschland</a>
+      </li>
+      <li>
+        <span class="date-code">`101004`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/101004-Buerger-Politik-Interface-Deutschland/">Buerger-Politik Interface Deutschland</a>
+      </li>
+      <li>
+        <span class="date-code">`010101`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/010101-d3v_system/">d3v_system</a>
+      </li>
+    </ul>
 
-  <h2>Economics</h2>
-  <ul>
-    <li>
-      <span class="date-code">`070201`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/070201-Open-Calculation-and-Open-Assembly/">Open Calculation and Open Assembly</a>
-    </li>
-  </ul>
+    <h2>Economics</h2>
+    <ul>
+      <li>
+        <span class="date-code">`070201`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/070201-Open-Calculation-and-Open-Assembly/">Open Calculation and Open Assembly</a>
+      </li>
+    </ul>
 
-  <h2>Philosophy</h2>
-  <ul>
-    <li>
-      <span class="date-code">`120420`</span>
-      <span class="featured">
-        <a href="https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html">What do you believe?</a>
-      </span>
-    </li>
-    <li>
-      <span class="date-code">`120420`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/">Woran glauben Sie denn?</a>
-    </li>
-  </ul>
+    <h2>Philosophy</h2>
+    <ul>
+      <li>
+        <span class="date-code">`120420`</span>
+        <span class="featured">
+          <a href="https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/index.en.html">What do you believe?</a>
+        </span>
+      </li>
+      <li>
+        <span class="date-code">`120420`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/120420-Erisisch-Woran-glauben-Sie-denn/">Woran glauben Sie denn?</a>
+      </li>
+    </ul>
 
-  <h2>Mashups</h2>
-  <ul>
-    <li>
-      <span class="date-code">`090715`</span>
-      <span class="featured">
-        <a href="https://perguth.de/ideas/090715-Jedi-Commons/en/">Jedi Commons</a>
-      </span>
-    </li>
-    <li>
-      <span class="date-code">`090715`</span>
-      <span class="lang-tag">[de]</span>
-      <a href="https://perguth.de/ideas/090715-Jedi-Commons/">Jedi Commons</a>
-    </li>
-  </ul>
+    <h2>Mashups</h2>
+    <ul>
+      <li>
+        <span class="date-code">`090715`</span>
+        <span class="featured">
+          <a href="https://perguth.de/ideas/090715-Jedi-Commons/en/">Jedi Commons</a>
+        </span>
+      </li>
+      <li>
+        <span class="date-code">`090715`</span>
+        <span class="lang-tag">[de]</span>
+        <a href="https://perguth.de/ideas/090715-Jedi-Commons/">Jedi Commons</a>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="https://blog.perguth.de/" target="_blank" rel="noopener noreferrer">Blog</a>
+      <a href="https://github.com/perguth/ideas" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://perguth.de/" target="_blank" rel="noopener noreferrer">Home</a>
+    </div>
+    <div class="copyright">
+      &copy; <script>document.write(new Date().getFullYear())</script> Per Guth
+    </div>
+  </footer>
 </body>
 </html>
