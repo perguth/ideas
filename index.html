@@ -16,6 +16,7 @@
       --footer-bg: #e2e8f0;
       --footer-text: #4b5563;
       --note-bg: rgba(109, 40, 217, 0.1);
+      --note-color: #6b7280;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -30,6 +31,7 @@
         --footer-bg: #111827;
         --footer-text: #9ca3af;
         --note-bg: rgba(139, 92, 246, 0.15);
+        --note-color: #9ca3af;
       }
     }
 
@@ -123,17 +125,10 @@
       font-weight: bold;
     }
 
-    .note {
-      background-color: var(--note-bg);
-      border-radius: 6px;
-      padding: 0.75rem 1rem;
-      margin: 1.5rem 0;
-      font-size: 0.9rem;
-      line-height: 1.5;
-    }
-
-    .note p {
-      margin: 0;
+    .date-note {
+      color: var(--note-color);
+      font-style: italic;
+      margin: 0.5rem 0 1.5rem;
     }
 
     footer {
@@ -176,8 +171,8 @@
     
     <blockquote>🤔 • Political, sociological, philosophical ideas and mashups.</blockquote>
 
-    <div class="note">
-      <p>Note: The dates shown (e.g., `130528`) represent backup dates, not creation dates. These ideas were originally developed in my youth. All content remains under copyright protection.</p>
+    <div class="date-note">
+      <small>Note: The dates shown (e.g., `130528`) represent backup dates, not original creation dates.</small>
     </div>
 
     <h2>Politics</h2>
